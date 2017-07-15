@@ -52,14 +52,7 @@
                     android:textAppearance="?android:textAppearanceMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
-                <TextView
-                    android:id="@+id/tvNickname"
-                    android:text="SAM"
-                    android:textColor="#FFFFFF"
-                    android:fontFamily="casual"
-                    android:textAppearance="?android:textAppearanceLarge"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+
 
             </LinearLayout>
             <de.hdodenhof.circleimageview.CircleImageView
