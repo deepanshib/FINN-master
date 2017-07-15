@@ -4,3 +4,4 @@ FINN (your personal healthcare companion): An application that helps the patient
  Moreover the name of the hospital, medicines prescribed by the doctor and the time of taking them will be stored automatically in the app directly from the doctor's prescription letter with the help of image to text recognition.
 The app includes basic  solution for the need of user to buy authentic medicines in cheaper rates and finding nearby hospitals, clinics and pharmacies giving ease to the user.
 Last but not the least, patients will have their login details so that they can open it in any phone and they donot have to set their alarm for medicines again if they change their mobile phones.
+Promo video YouTube link - https://www.youtube.com/watch?v=-rTpr-meJLg&rel=0
