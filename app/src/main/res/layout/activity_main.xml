@@ -123,10 +123,10 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:src="@android:drawable/ic_dialog_email"
+                android:src="@mipmap/basket"
                 android:contentDescription="Shop"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="40dp" />
 
         </LinearLayout>
 
