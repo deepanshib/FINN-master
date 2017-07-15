@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:text="Hello,"
+                    android:text="Hello"
                     android:textColor="#FFFFFF"
                     android:fontFamily="cursive"
                     android:textAppearance="?android:textAppearanceMedium"
