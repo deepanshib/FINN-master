@@ -78,9 +78,10 @@ public class MainActivity extends AppCompatActivity {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new HospitalFragment()).commit();
                 break;
             case R.id.llGallery:
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setType("image/*");
-                startActivity(intent);
+                startActivity(new Intent(this,MlAi.class));
+                //Intent intent = new Intent(Intent.ACTION_VIEW);
+                //intent.setType("image/*");
+                //startActivity(intent);
                 break;
         }
     }

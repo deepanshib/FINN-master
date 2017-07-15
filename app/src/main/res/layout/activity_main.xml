@@ -90,7 +90,7 @@
 
             <ImageView
                 android:src="@android:drawable/ic_dialog_map"
-                android:contentDescription="Locate"
+                android:contentDescription="Scan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 

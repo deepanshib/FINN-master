@@ -6,7 +6,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="145dp"
         app:srcCompat="@mipmap/logo" />
     <ScrollView
         android:layout_weight="1"

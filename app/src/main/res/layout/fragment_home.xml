@@ -324,7 +324,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp" />
                 <TextView
-                    android:text="GALLERY"
+                    android:text="SCAN"
                     android:textAppearance="?android:textAppearanceLarge"
                     android:textColor="#FFFFFF"
                     android:layout_gravity="center"
