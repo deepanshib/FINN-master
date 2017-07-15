@@ -1,6 +1,7 @@
 package com.example.pa.finn;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -55,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new ProfileFragment()).commit();
                 break;
             case R.id.llLocate:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new LocateFragment()).commit();
+                startActivity(new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("http://www.maps.google.co.uk/maps?q=Hospitals&h1=en")));
+//                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new LocateFragment()).commit();
                 break;
             case R.id.llHome:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new HomeFragment()).commit();
