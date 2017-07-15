@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FINN</string>
+    <string-array name="gender">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+</resources>

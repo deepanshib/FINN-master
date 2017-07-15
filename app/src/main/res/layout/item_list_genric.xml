@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="6dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civImage"
+            android:src="@color/cardview_dark_background"
+            android:layout_margin="6dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+        <ImageView
+            android:id="@+id/ivImage"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="6dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp" />
+        <TextView
+            android:id="@+id/tvDetails"
+            android:text="DETAILS"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

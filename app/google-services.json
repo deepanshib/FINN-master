@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "936227548968",
+    "firebase_url": "https://finn-ff651.firebaseio.com",
+    "project_id": "finn-ff651",
+    "storage_bucket": "finn-ff651.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936227548968:android:66de82884180bb8c",
+        "android_client_info": {
+          "package_name": "com.example.pa.finn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936227548968-c4ogtske991ocbp3e8icmht4763muc3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pa.finn",
+            "certificate_hash": "bbea710ec8fecd612f241c3f72e3b2d7fb21be60"
+          }
+        },
+        {
+          "client_id": "936227548968-2ukao0obpcl8qmh2fui6spl778jnd6h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtO_vKU2uL1Iko0IYfDBFADZooLYyA6PA"
+        },
+        {
+          "current_key": "AIzaSyBRcW1x8AvyXBSqzs9QsbGHotz9Umxn3uI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936227548968-2ukao0obpcl8qmh2fui6spl778jnd6h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
