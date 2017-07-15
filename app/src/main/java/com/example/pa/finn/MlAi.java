@@ -99,17 +99,7 @@ public class MlAi extends AppCompatActivity {
                     if (textBlocks.size() == 0) {
                         scanResults.setText("Scan Failed: Found nothing to scan");
                     } else {
-                        String scan="Hospital name ==";
-                        while(scanResults.getText()!="\n"){
-                            scan=scan+scanResults.getText();
-                            scanResults.setText( scan);
-                        }
-                        String scan2="Medicine name";
-                        while (scanResults.getText()!="-"){
-                            scan2=scan2+scanResults.getText();
-                            scanResults.setText(scan2);
 
-                        }
                         scanResults.setText(scanResults.getText() + "Blocks: " + "\n");
                         scanResults.setText(scanResults.getText() + blocks + "\n");
                         scanResults.setText(scanResults.getText() + "---------" + "\n");
